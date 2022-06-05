@@ -11,7 +11,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#02a774",
-    "navigationBarTitleText": "硅谷书城",
+    "navigationBarTitleText": "豆瓣书城",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -36,5 +36,5 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap26.json"
 }
