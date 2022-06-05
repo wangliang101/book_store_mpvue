@@ -1,0 +1,45 @@
+@import "../../common/vendor.wxss"
+
+#detailContainer {
+  display: flex;
+  flex-direction: column;
+}
+#detailContainer .bookName {
+  font-size: 40rpx;
+  line-height: 80rpx;
+  font-weight: 700;
+  text-align: center;
+}
+#detailContainer ._img {
+  width: 70%;
+  height: 700rpx;
+  margin: 20rpx auto;
+}
+#detailContainer .bookInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  width: 100%;
+  padding-left: 15%;
+}
+#detailContainer ._button {
+  width: 300rpx;
+  height: 60rpx;
+  font-size: 32rpx;
+  line-height: 60rpx;
+  margin: 20rpx auto;
+}
+#detailContainer ._article {
+  width: 100%;
+  padding: 10%;
+  box-sizing: border-box;
+}
+#detailContainer ._article ._h1 {
+  text-align: center;
+  color: #02a774;
+  font-weight: bold;
+}
+#detailContainer ._article ._section {
+  font-size: 34rpx;
+  text-indent: 34rpx;
+}

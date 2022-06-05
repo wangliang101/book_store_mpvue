@@ -1,0 +1,9 @@
+<template name="60522028">
+  <view class="_div data-v-2ac1d78a">
+    <view class="_div data-v-2ac1d78a bookItem" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{booksList}}" wx:for-index="index" wx:for-item="item">
+      <image src="{{item.image}}" alt class="_img data-v-2ac1d78a"></image>
+      <view class="_div data-v-2ac1d78a bookInfo"><label class="_span data-v-2ac1d78a">{{item.title}}</label> <label class="_span data-v-2ac1d78a">作者: {{item.author}}</label> <label class="_span data-v-2ac1d78a">出版社: {{item.publisher}}</label></view>
+      <view class="_p data-v-2ac1d78a price">{{item.price}}</view>
+    </view>
+  </view>
+</template>

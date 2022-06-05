@@ -1,0 +1,18 @@
+<template name="39b69e91">
+  <view id="indexContainer" class="_div data-v-9bde731a">
+    <swiper bindchange="handleProxy" indicator-dots="{{isShow}}" indicator-color="pink" indicator-active-color="#02a774" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_swiper data-v-9bde731a">
+      <swiper-item class="_swiper-item data-v-9bde731a">
+        <image src="/static/imgs/firstView/1.jpg" alt class="_img data-v-9bde731a"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-9bde731a">
+        <image src="/static/imgs/firstView/2.jpg" alt class="_img data-v-9bde731a"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-9bde731a">
+        <image src="/static/imgs/firstView/3.jpg" alt class="_img data-v-9bde731a"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-9bde731a">
+        <image src="/static/imgs/firstView/nvsheng.jpg" alt class="_img data-v-9bde731a"></image>
+      </swiper-item>
+    </swiper> <button bindtap="handleProxy" hidden="{{!(!isShow)}}" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-9bde731a">开始体验</button>
+  </view>
+</template>

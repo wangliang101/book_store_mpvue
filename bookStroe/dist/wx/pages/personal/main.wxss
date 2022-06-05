@@ -1,0 +1,38 @@
+@import "../../common/vendor.wxss"
+
+#personalContainer {
+  display: flex;
+  flex-direction: column;
+}
+#personalContainer .head {
+  width: 100%;
+  background: #02a774;
+  padding: 40rpx 0;
+}
+#personalContainer .head ._img {
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: middle;
+  margin: 0 40rpx;
+  border-radius: 50rpx;
+}
+#personalContainer .head ._button {
+  display: inline-block;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: rgba(0,0,0,0.2);
+  vertical-align: middle;
+  color: #fff;
+  font-size: 28rpx;
+}
+#personalContainer .cardList .card {
+  width: 90%;
+  margin: 20rpx auto;
+  border: 1rpx solid #eee;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+}
+#personalContainer .cardList .card .more {
+  float: right;
+}

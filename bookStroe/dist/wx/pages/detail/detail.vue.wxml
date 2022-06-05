@@ -1,0 +1,15 @@
+<template name="69f7ff68">
+  <view id="detailContainer" class="_div data-v-111eb7ca">
+    <view class="_p data-v-111eb7ca bookName">{{bookItem.title}}</view>
+    <image src="{{bookItem.image}}" alt class="_img data-v-111eb7ca"></image>
+    <view class="_div data-v-111eb7ca bookInfo"><label class="_span data-v-111eb7ca">作者: {{bookItem.author}}</label> <label class="_span data-v-111eb7ca">出版社: {{bookItem.publisher}}</label> <label class="_span data-v-111eb7ca">出版日期: {{bookItem.pubdate}}</label> <label class="_span data-v-111eb7ca">定价: {{bookItem.price}}</label></view> <button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-111eb7ca">收藏该文章</button>
+    <view class="_article data-v-111eb7ca authorInfo">
+      <view class="_h1 data-v-111eb7ca">作者简介</view>
+      <view class="_section data-v-111eb7ca">{{bookItem.author_intro}}</view>
+    </view>
+    <view class="_article data-v-111eb7ca contentInfo">
+      <view class="_h1 data-v-111eb7ca">文章简介</view>
+      <view class="_section data-v-111eb7ca">{{bookItem.summary}}</view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,8 @@
+<import src="/pages/bookList/bookList.vue.wxml" /><template name="19a08368">
+  <view id="searchContainer" class="_div data-v-2cc1b9ca">
+    <view class="_div data-v-2cc1b9ca head"><input confirm-type="search" bindconfirm="handleProxy" value="{{searchContent}}" bindinput="handleProxy" class="_input data-v-2cc1b9ca searchInput" type="text" placeholder="书中自有黄金屋" placeholder-class="placeholder" data-eventid="{{'0'}}" data-comkey="{{$k}}" /> <label bindtap="handleProxy" hidden="{{!(isShow)}}" class="_span data-v-2cc1b9ca clean" data-eventid="{{'1'}}" data-comkey="{{$k}}">X</label></view>
+    <view class="_div data-v-2cc1b9ca bookListContainer" wx:if="{{booksList.length}}">
+      <view class="_p data-v-2cc1b9ca title">搜索到的图书共20本</view> <template data="{{...$root[$kk+'0'], $root}}" is="60522028"></template>
+    </view>
+  </view>
+</template>

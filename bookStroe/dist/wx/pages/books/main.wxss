@@ -1,0 +1,46 @@
+@import "../../common/vendor.wxss"
+
+#booksContainer swiper {
+  width: 100%;
+  height: 400rpx;
+}
+#booksContainer swiper ._img {
+  height: 100%;
+  width: 100%;
+}
+#booksContainer #AllBooks .nav {
+  padding: 10rpx;
+}
+#booksContainer #AllBooks .more {
+  float: right;
+  width: 80rpx;
+  height: 100%;
+  text-align: right;
+  color: #02a774;
+}
+#booksContainer #AllBooks .booksList {
+  display: flex;
+  flex-wrap: wrap;
+}
+#booksContainer #AllBooks .booksList .bookItem {
+  width: 50%;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #eee;
+  text-align: center;
+  padding: 20rpx;
+}
+#booksContainer #AllBooks .booksList .bookItem:nth-child(2n + 1) {
+  border-right: 1rpx solid #eee;
+  border-left: 1rpx solid #eee;
+}
+#booksContainer #AllBooks .booksList .bookItem ._img {
+  width: 200rpx;
+  height: 200rpx;
+}
+#booksContainer #AllBooks .booksList .bookItem .bookName {
+  font-size: 30rpx;
+  line-height: 60rpx;
+}
+#booksContainer #AllBooks .booksList .bookItem .bookDir {
+  font-size: 28rpx;
+}

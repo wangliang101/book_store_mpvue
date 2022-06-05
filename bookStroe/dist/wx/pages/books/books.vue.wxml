@@ -1,0 +1,21 @@
+<template name="2e066fde">
+  <view id="booksContainer" class="_div data-v-d2384e80">
+    <swiper indicator-dots="true" indicator-color="pink" indicator-active-color="#02a774" class="_swiper data-v-d2384e80">
+      <swiper-item wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'0-'+key}}" data-comkey="{{$k}}" wx:for="{{carousel}}" wx:for-index="key" wx:for-item="item" class="_swiper-item data-v-d2384e80">
+        <image src="{{item.image}}" alt class="_img data-v-d2384e80"></image>
+      </swiper-item>
+    </swiper>
+    <view id="AllBooks" class="_div data-v-d2384e80">
+      <view class="_div data-v-d2384e80 nav"><label class="_span data-v-d2384e80 all">全部商品</label> <label class="_span data-v-d2384e80 more" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">></label></view>
+      <view class="_ul data-v-d2384e80 booksList">
+        <view class="_li data-v-d2384e80 bookItem" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'2-'+index}}" data-comkey="{{$k}}" wx:for="{{booksList}}" wx:for-index="index" wx:for-item="item">
+          <image src="{{item.image}}" alt class="_img data-v-d2384e80"></image>
+          <view class="_p data-v-d2384e80 bookName"> 《{{item.title}}》 </view>
+          <view class="_p data-v-d2384e80 bookDir">
+            {{item.author}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

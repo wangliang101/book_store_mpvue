@@ -1,0 +1,11 @@
+<template name="50eb0770">
+  <view id="personalContainer" class="_div data-v-bc0b98ac">
+    <view class="_div data-v-bc0b98ac head">
+      <image src="{{userInfo.avatarUrl?userInfo.avatarUrl:'/static/imgs/personal/personal.png'}}" alt class="_img data-v-bc0b98ac"></image> <button open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-bc0b98ac">{{userInfo.nickName?userInfo.nickName:'登录'}}</button>
+    </view>
+    <view class="_div data-v-bc0b98ac cardList">
+      <view class="_div data-v-bc0b98ac card" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"><label class="_span data-v-bc0b98ac">我的收藏</label> <label class="_span data-v-bc0b98ac more">more ></label></view>
+      <view class="_div data-v-bc0b98ac card" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"><label class="_span data-v-bc0b98ac">扫码看书</label> <label class="_span data-v-bc0b98ac more">more ></label></view>
+    </view>
+  </view>
+</template>

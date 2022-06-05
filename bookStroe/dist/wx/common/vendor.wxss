@@ -1,0 +1,25 @@
+
+.bookItem.data-v-2ac1d78a {
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.bookItem ._img.data-v-2ac1d78a {
+  width: 140rpx;
+  height: 140rpx;
+}
+.bookItem .bookInfo.data-v-2ac1d78a {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin-left: 10rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+}
+.bookItem .price.data-v-2ac1d78a {
+  position: absolute;
+  right: 30rpx;
+  color: #f00;
+  font-size: 32rpx;
+  font-weight: bold;
+}

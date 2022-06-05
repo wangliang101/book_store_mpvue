@@ -1,0 +1,29 @@
+@import "../../common/vendor.wxss"
+
+#searchContainer .head {
+  position: relative;
+  width: 80%;
+  height: 80rpx;
+  border-bottom: 1rpx solid #02a774;
+  margin: 0 auto;
+}
+#searchContainer .head .searchInput {
+  height: 100%;
+}
+#searchContainer .head .placeholder {
+  color: #02a774;
+  font-size: 28rpx;
+  text-align: center;
+}
+#searchContainer .head .clean {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  z-index: 99;
+}
+#searchContainer .bookListContainer>._p {
+  font-size: 30rpx;
+  color: #333;
+  padding: 20rpx;
+  border: 1rpx solid #eee;
+}
